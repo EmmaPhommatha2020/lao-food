@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Parisienne|Rochester|Rufina|Vidaloka');
+
+
+.logo {
+    
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    
+}
+.desktop-nav {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aqua;
+      
+}
+
+.desktop{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.login {
+    font-family: 'Open Sans Condensed', sans-serif;    
+}
+.link-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 28px;
+    padding: 20px;
+}
+.desktop-links {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;    
+    transition: all;
+    
+}
+.desktop-links:hover {
+    transform: scale(1.1);
+}
+.login {
+    text-decoration: none;
+}
+.cart {
+    height: 30px;
+}
+
+
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Parisienne|Rochester|Rufina|Vidaloka');
+
+.cart-item{
+  background-color: white;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr repeat(4,150px);
+  grid-gap: 10px;
+}
+.cart-item h3{
+  padding: 3px;
+}
+.cart-item p{
+  padding: 3px;
+  font-size: 18px;
+}
+.cart-item .unit-price{
+  text-align: right;
+}
+.cart-item .price{
+  text-align: right;
+}
+.cart-item .quantity{
+  text-align: right;
+  cursor: pointer;
+}
+.qty-update{
+  display: flex;
+}
+.qty-update input{
+  width: 50%;
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 15px;
+}
+.update-button {
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;  
+  background-color: rgb(168, 255, 255);
+}
+.remove{
+  margin-left: 10px;
+  color: black;
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;  
+  background-color: rgb(168, 255, 255);
+}
+
+.item-name {
+  margin-left: 15px;
+  padding-right: 0;
+  margin-right: 0;
+}
+@media (max-width: 415px) {
+  .cart-item {
+      display: grid;
+      grid-template-columns: repeat(5,63px); 
+      text-align: center;
+  }
+  .cart-item p {
+      height: 20px;
+  }
+  .qty-update input{
+    width: 10px;
+    height: fit-content;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .update-button {
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;  
+    background-color: rgb(168, 255, 255);
+    
+  }
+  .remove{
+    margin-left: 10px;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;  
+    background-color: rgb(168, 255, 255);
+    
+  }
+}
